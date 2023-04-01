@@ -2,25 +2,21 @@
     font-family: 'Avenir Next Cyr';
     src: url('../fonts/AvenirNextCyr-Light.ttf');
     font-weight: 300;
-    /* margin: -10px; */
 }
 .bold {
     font-weight: bold;
 }
 .table {
-    /* background-color: cadetblue; */
     display: flex;
     justify-content: center;    
 }
 .cell-1 {
-    /* background-color: bisque; */
     width: 20%;
     text-align: right;
     margin-right: 20px;
     font-weight: 500;
 }
 .cell-2 {
-    /* background-color: darkkhaki; */
     width: 80%;
 }
 .cell-2 span {
