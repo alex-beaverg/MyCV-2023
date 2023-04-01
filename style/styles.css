@@ -68,3 +68,9 @@ a {
 a:hover {
     color: red;
 }
+img {
+    width: 90px;
+    margin-top: 50px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
