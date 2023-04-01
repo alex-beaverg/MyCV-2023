@@ -21,7 +21,7 @@
 }
 .cell-2 {
     /* background-color: darkkhaki; */
-    width: 50%;
+    width: 80%;
 }
 .cell-2 span {
     display: flex;
@@ -49,6 +49,8 @@
     border: none;
 	border-top: 2px solid dimgray;
     margin-top: 15px;
+    width: 80%;
+    margin-left: 0;
 }
 table {
     margin-left: -3px;;
