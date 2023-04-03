@@ -68,15 +68,19 @@ table {
 }
 a {
     text-decoration: none;
-    color: darkred;
+    color: rgb(47, 0, 255);
 }
 a:hover {
-    color: red;
+    color: rgb(0, 153, 255);
 }
 img {
     width: 90px;
     margin-top: 50px;
 }
+.copy {
+    text-align: right;
+}
+
 
 /* Animation */
 .twist {
