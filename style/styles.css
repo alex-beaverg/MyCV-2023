@@ -11,13 +11,15 @@
     justify-content: center;    
 }
 .cell-1 {
-    width: 20%;
+    display: flex;
+    justify-content: end;
+    width: 23%;
     text-align: right;
     margin-right: 20px;
     font-weight: 500;
 }
 .cell-2 {
-    width: 80%;
+    width: 77%;
 }
 .cell-2 span {
     display: flex;
@@ -49,14 +51,17 @@
     margin-left: 0;
 }
 table {
-    margin-left: -3px;;
+    margin-left: -3px;
+    width: 80%;
 }
 .td-1 {
-    width: 200px;
+    width: 25%;
     font-weight: 500;
+    vertical-align: top;
 }
 .td-year {
     width: 110px;
+    vertical-align: top;
 }
 .between {
     height: 20px;
@@ -76,8 +81,7 @@ img {
 /* Animation */
 .twist {
     width: 90px;
-    height: -28px;
-    margin-left: 282px;     
+    height: 192px;
     transform: rotate(360deg);  
     animation-name: twist;
     animation-duration: 10s;
