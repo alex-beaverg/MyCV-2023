@@ -80,6 +80,11 @@ img {
 .copy {
     text-align: right;
 }
+.td-level {
+    width: 110px;
+    vertical-align: top;
+    color: rgb(168, 168, 168);
+}
 
 
 /* Animation */
