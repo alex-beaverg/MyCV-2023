@@ -1,3 +1,81 @@
+@media (max-width: 1400px) {
+    .cell-1 {
+        display: flex;
+        justify-content: end;
+        width: 10%;
+        text-align: right;
+        margin-right: 20px;
+        font-weight: 500;
+    }
+    .cell-2 {
+        width: 90%;
+    }
+    .horize-line {
+        border: none;
+        border-top: 2px solid dimgray;
+        margin-top: 15px;
+        width: 95%;
+        margin-left: 0;
+    }
+    table {
+        margin-left: -3px;
+        width: 95%;
+    }
+    .td-1 {
+        width: 18%;
+        font-weight: 500;
+        vertical-align: top;
+    }
+    .td-year {
+        width: 115px;
+        vertical-align: top;
+    }
+    .td-level {
+        width: 115px;
+        vertical-align: top;
+        color: rgb(168, 168, 168);
+    }
+}
+
+@media (min-width: 1401px) {
+    .cell-1 {
+        display: flex;
+        justify-content: end;
+        width: 20%;
+        text-align: right;
+        margin-right: 20px;
+        font-weight: 500;
+    }
+    .cell-2 {
+        width: 80%;
+    }
+    .horize-line {
+        border: none;
+        border-top: 2px solid dimgray;
+        margin-top: 15px;
+        width: 80%;
+        margin-left: 0;
+    }
+    table {
+        margin-left: -3px;
+        width: 80%;
+    }
+    .td-1 {
+        width: 18%;
+        font-weight: 500;
+        vertical-align: top;
+    }
+    .td-year {
+        width: 115px;
+        vertical-align: top;
+    }
+    .td-level {
+        width: 115px;
+        vertical-align: top;
+        color: rgb(168, 168, 168);
+    }
+}
+
 .main {    
     font-family: 'Avenir Next Cyr';
     src: url('../fonts/AvenirNextCyr-Light.ttf');
@@ -9,17 +87,6 @@
 .table {
     display: flex;
     justify-content: center;    
-}
-.cell-1 {
-    display: flex;
-    justify-content: end;
-    width: 20%;
-    text-align: right;
-    margin-right: 20px;
-    font-weight: 500;
-}
-.cell-2 {
-    width: 80%;
 }
 .cell-2 span {
     display: flex;
@@ -43,28 +110,8 @@
 	border-top: 50px solid black;
     margin-left: 0;
 }
-.horize-line {
-    border: none;
-	border-top: 2px solid dimgray;
-    margin-top: 15px;
-    width: 80%;
-    margin-left: 0;
-}
 b {
     font-weight: 500;
-}
-table {
-    margin-left: -3px;
-    width: 80%;
-}
-.td-1 {
-    width: 18%;
-    font-weight: 500;
-    vertical-align: top;
-}
-.td-year {
-    width: 110px;
-    vertical-align: top;
 }
 .between {
     height: 10px;
@@ -82,11 +129,6 @@ img {
 }
 .copy {
     text-align: right;
-}
-.td-level {
-    width: 110px;
-    vertical-align: top;
-    color: rgb(168, 168, 168);
 }
 
 
