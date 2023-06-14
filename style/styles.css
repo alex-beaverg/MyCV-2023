@@ -13,13 +13,13 @@
 .cell-1 {
     display: flex;
     justify-content: end;
-    width: 23%;
+    width: 20%;
     text-align: right;
     margin-right: 20px;
     font-weight: 500;
 }
 .cell-2 {
-    width: 77%;
+    width: 80%;
 }
 .cell-2 span {
     display: flex;
@@ -50,12 +50,15 @@
     width: 80%;
     margin-left: 0;
 }
+b {
+    font-weight: 500;
+}
 table {
     margin-left: -3px;
     width: 80%;
 }
 .td-1 {
-    width: 25%;
+    width: 18%;
     font-weight: 500;
     vertical-align: top;
 }
