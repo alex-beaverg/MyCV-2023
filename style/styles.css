@@ -1,14 +1,14 @@
-@media (max-width: 1400px) {
+@media (max-width: 1080px) {
     .cell-1 {
         display: flex;
         justify-content: end;
-        width: 10%;
+        width: 15%;
         text-align: right;
         margin-right: 20px;
         font-weight: 500;
     }
     .cell-2 {
-        width: 90%;
+        width: 85%;
     }
     .horize-line {
         border: none;
@@ -22,7 +22,7 @@
         width: 95%;
     }
     .td-1 {
-        width: 18%;
+        width: 25%;
         font-weight: 500;
         vertical-align: top;
     }
