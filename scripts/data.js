@@ -19,7 +19,7 @@ document.getElementById("russian").innerHTML = "Native speaker";
 document.getElementById("english").innerHTML = "B1 (Intermediate)";
 
 // UPDATED:
-document.getElementById("date").innerHTML = "June 26th, 2024";
+document.getElementById("date").innerHTML = "July 3rd, 2024";
 
 // COPYRIGHT:
 document.getElementById("copyright").innerHTML = "&#169; Alexey Bobrykov " + new Date().getFullYear();
