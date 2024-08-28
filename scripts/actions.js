@@ -1,5 +1,5 @@
 function alertAfterTimer() {
-    alert("I'm sorry, my friend. I've been working as an AQA engineer since June 2024...");
+    alert("I'm sorry, my friend. I've been already working as an AQA engineer...");
   }
   
-  setTimeout(alertAfterTimer, 2000);
+  setTimeout(alertAfterTimer, 1000);
