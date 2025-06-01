@@ -103,6 +103,18 @@
     letter-spacing: 0.54em;
     font-weight: 400;
 }
+#name_ru {
+    font-size: 35px;
+    font-weight: 500;
+    color: dimgray;
+    letter-spacing: 0.05em;
+    margin-top: -5px;
+}
+#surname_ru {
+    font-size: 18px;
+    letter-spacing: 0.6em;
+    font-weight: 400;
+}
 .vert-line {
     width: 1px;
     color: black;
@@ -112,6 +124,9 @@
 }
 b {
     font-weight: 500;
+}
+.td-2 i {
+    color: darkgreen;
 }
 .between {
     height: 10px;
